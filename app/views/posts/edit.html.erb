@@ -1,6 +1,8 @@
+<h1>My Edit</h1>
 <%= form_for(@post) do |f| %>
-  <label>Post title:</label><br>
+  <label>My post title:</label><br>
   <%= f.text_field :title %><br>
-
+ <label>My post description:</label><br>
+	<%= f.text_field :description %><br>
   <%= f.submit %>
 <% end %>
